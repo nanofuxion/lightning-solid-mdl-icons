@@ -1,2 +1,3 @@
 # lightning-solid-mdl-icons
-Google MDL components for @lightningjs/solid
+Google MDL Icon components for @lightningjs/solid
+
