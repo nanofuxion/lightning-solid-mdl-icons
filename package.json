@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cp -r public/fonts $INIT_CWD"
+    "postinstall": "node ./post-install.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,10 @@
   "homepage": "https://github.com/nanofuxion/lightning-solid-mdl-icons#readme",
   "dependencies": {
     "@lightningjs/solid": "^0.7.6",
-    "solid-js": "^1.8.5",
+    "solid-js": "^1.8.5"
+  },
+  "devDependencies": {
+    "gently-copy": "^3.2.0",
     "tsc": "^2.0.4",
     "typescript": "^5.2.2"
   }
