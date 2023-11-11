@@ -1,0 +1,34 @@
+{
+  "name": "@yfuu/lightning-solid-mdl-icons",
+  "version": "0.0.1",
+  "description": "Google MDL components for @lightningjs/solid",
+  "main": "src/components/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanofuxion/lightning-solid-mdl-icons.git"
+  },
+  "keywords": [
+    "mdl",
+    "font",
+    "icons",
+    "solid",
+    "lightning",
+    "lightningjs",
+    "typescript"
+  ],
+  "author": "nanofuxion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanofuxion/lightning-solid-mdl-icons/issues"
+  },
+  "homepage": "https://github.com/nanofuxion/lightning-solid-mdl-icons#readme",
+  "dependencies": {
+    "@lightningjs/solid": "^0.7.6",
+    "solid-js": "^1.8.5",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
