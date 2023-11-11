@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
-    // "strict": true,
+    "strict": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
+    "types": ["vite/client", "@lightningjs/vite-plugin-import-chunk-url/client"],
     "noEmit": true,
     "isolatedModules": true,
+    "noImplicitAny": false,
     "resolveJsonModule": true
   },
   "exclude": [

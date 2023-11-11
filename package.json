@@ -1,10 +1,11 @@
 {
   "name": "@yfuu/lightning-solid-mdl-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google MDL components for @lightningjs/solid",
-  "main": "src/components/index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp -r public/fonts $INIT_CWD"
   },
   "repository": {
     "type": "git",

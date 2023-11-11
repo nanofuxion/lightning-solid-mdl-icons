@@ -18,9 +18,9 @@ export const createStyles = (fontFamily: FontTypes) => ({
 });
 
 export enum FontTypes {
-    "regular" = "Regular",
-    "outlined" = "Outlined",
-    "rounded" = "Rounded",
-    "sharp" = "Sharp",
-    "twoTone" = "TwoTone",
+    "regular" = "MDL_Regular",
+    "outlined" = "MDL_Outlined",
+    "rounded" = "MDL_Rounded",
+    "sharp" = "MDL_Sharp",
+    "twoTone" = "MDL_TwoTone",
 }
