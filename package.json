@@ -1,10 +1,12 @@
 {
   "name": "@yfuu/lightning-solid-mdl-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Google MDL components for @lightningjs/solid",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node ./post-install.js"
   },
   "repository": {
@@ -27,6 +29,7 @@
   },
   "homepage": "https://github.com/nanofuxion/lightning-solid-mdl-icons#readme",
   "dependencies": {
+    "@lightningjs/renderer": "^0.5.0",
     "@lightningjs/solid": "^0.7.6",
     "solid-js": "^1.8.5"
   },

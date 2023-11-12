@@ -8,12 +8,18 @@
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "noEmit": true,
+    "noEmit": false,
     "isolatedModules": true,
     "noImplicitAny": false,
     "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "dist"
   },
+  "files": ["src/index.ts"],
   "exclude": [
+    "dist",
+    "node_modules",
     "src/components/GenerateComponents.ts",
     "src/components/GenerateIndex.ts"
   ]

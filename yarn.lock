@@ -10,6 +10,14 @@
     "@lightningjs/threadx" "^0.3.4"
     "@protobufjs/eventemitter" "^1.1.0"
 
+"@lightningjs/renderer@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@lightningjs/renderer/-/renderer-0.5.0.tgz#c853a039e59224b3ba080f885e0f2459d879e252"
+  integrity sha512-xlsdDibc3ftBdcWvS4PWCoLjZ/uXp4Jl0I7+7wfQuoRGHst9kQ31+clB+kpJSpCIR+CxtYxMpYUVIjC5QC2eOA==
+  dependencies:
+    "@lightningjs/threadx" "^0.3.4"
+    "@protobufjs/eventemitter" "^1.1.0"
+
 "@lightningjs/solid@^0.7.6":
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/@lightningjs/solid/-/solid-0.7.6.tgz#014001691c6df616ffc201131a978e9c85954503"
