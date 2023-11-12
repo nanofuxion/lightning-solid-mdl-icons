@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/nanofuxion/lightning-solid-mdl-icons#readme",
   "dependencies": {
-    "@lightningjs/renderer": "^0.5.0",
+    "@lightningjs/renderer": "^0.4.2",
     "@lightningjs/solid": "^0.7.6",
     "solid-js": "^1.8.5"
   },
